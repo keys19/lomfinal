@@ -99,7 +99,7 @@ body {
   */
   .navbar {
     padding: 0;
-    margin-left: 80%;
+    margin-left: 60%;
   }
   
   .navbar ul {
@@ -544,7 +544,9 @@ p {
     /* z-index: 1; */
   }
 
-
+  /*--------------------------------------------------------------
+# Historical Section
+--------------------------------------------------------------*/
   #hc{background-color: black;
     /* background-image: url('images/bgh.png');
     background-repeat: no-repeat; */
@@ -552,10 +554,11 @@ p {
     padding: 50px; /* Adjust the padding as needed */
     position: relative;
     width: 100%;
-    height: auto;}
+    height: auto;
+}
 
-  #hc h2{text-align: left;}
-
+  #hc h2{text-align: center; font-size: 25px;}
+  #hc p{font-size: 18px;}
   #image-overlay {
     position: absolute;
     bottom: 10px; /* Adjust the distance from the bottom */
@@ -570,3 +573,41 @@ p {
     height: 100vh;
     /* object-fit: cover; */
 }
+
+
+  /*--------------------------------------------------------------
+# References Section
+--------------------------------------------------------------*/
+#references{background-color: black;
+  /* background-image: url('images/bgh.png');
+  background-repeat: no-repeat; */
+  color: white;
+  padding: 20%; /* Adjust the padding as needed */
+  padding-top: 5%;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#references h2{text-align: center; font-size: 25px;padding: 1%;}
+#references p{font-size: 18px;}
+#references div{padding:1%;}
+
+  /*--------------------------------------------------------------
+# Footnotes Section
+--------------------------------------------------------------*/
+#footnotes{background-color: black;
+  /* background-image: url('images/bgh.png');
+  background-repeat: no-repeat; */
+  color: white;
+  padding: 20%; /* Adjust the padding as needed */
+  padding-top: 5%;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#footnotes h2{text-align: center; font-size: 25px;padding: 1%;}
+#footnotes h3{font-size: 19px;padding: 1%;font-style: bold;}
+#footnotes p{font-size: 18px;}
+#footnotes div{padding:1%;}
